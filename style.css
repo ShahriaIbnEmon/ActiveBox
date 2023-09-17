@@ -1,3 +1,8 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap');
+</style>
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
 *{
     margin: 0;
     padding: 0;
@@ -21,4 +26,13 @@ ul li{
 .header_section .container{
     height: 100px;
 
+}
+.header-menu .menu{
+    display: flex;
+}
+.header-menu .menu li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
 }
