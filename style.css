@@ -22,19 +22,20 @@ ul li{
 }
 .header_section{
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .header_section .container{
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cadetblue;
-
-
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 .header-menu .menu{
     display: flex;
-    
 }
 .header-menu .menu li a{
     font-family: 'Raleway', sans-serif;
@@ -45,3 +46,40 @@ ul li{
     display: flex;
 }
 /* ---------------------banner section---------------- */
+.banner-section{
+    background-image: url(./../Elements/ActiveBox_Cover.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 260px;
+    padding-bottom: 160px;
+}
+.banner-section .container h1{
+    font-size:65px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(255, 255, 255);
+    line-height: 68px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner-section .container P{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 40px;   
+    margin-bottom: 80px;
+    padding: 0 110px;
+}
+.banner-section .container a{
+    font-size: 13px;
+    background-color: rgb(232, 69, 69);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+}
