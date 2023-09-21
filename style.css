@@ -25,14 +25,22 @@ ul li{
 }
 .header_section .container{
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+
 
 }
 .header-menu .menu{
     display: flex;
+    
 }
 .header-menu .menu li a{
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 700;
     color: #fff;
+    padding: 14px 30px;
+    display: flex;
 }
