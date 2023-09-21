@@ -85,4 +85,12 @@ ul li{
     transform: translateX(-50%);
     text-transform: uppercase;
 }
-/* <!-- -------------------------server section------------- --> */
+/* <!-- -------------------------service section------------- --> */
+.service-container{
+    padding: 120px 0px;
+
+}
+.service-container .container{
+display: flex;
+}
+
