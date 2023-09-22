@@ -224,6 +224,8 @@ ul li{
 /* -------------------------------------Quotes Section------------------------------------ */
 .quotes-section{
     background-color: #53354A;
+
+
 }
 .quotes-content{
     display: flex;
@@ -267,8 +269,44 @@ ul li{
     width: 10px;
     border-radius: 50%;
     background-color: #897583;
+    
 }
 .indicator .indicator-item:nth-child(2){    
     background-color: #ffffff;
 }
 /* --------------------------------------Downlod Section------------------------- */
+.download-section .container{
+    width: 900px;
+    display: block;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: #ffffff;
+}
+.download-section{
+    padding-top: 100px;
+}
+.text-area p:first-of-type{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+.text-area p:last-of-type{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.download-section .container .text-area a{
+    font-size: 13px;
+    background-color: rgb(232, 69, 69);
+    font-family: 'Raleway', sans-serif;
+    padding: 18px 83px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+}
