@@ -47,7 +47,7 @@ ul li{
     padding: 14px 30px;
     display: flex;
 }
-/* ---------------------banner section---------------- */
+/* ------banner section-------- */
 .banner-section{
     background-image: url(./../Elements/ActiveBox_Cover.png);
     background-size: cover;
@@ -86,7 +86,7 @@ ul li{
     transform: translateX(-50%);
     text-transform: uppercase;
 }
-/* <!-- -------------------------service section------------- --> */
+/* <!---------service section-------> */
 .service-section{
     padding: 120px 0;
 }
@@ -119,7 +119,7 @@ ul li{
     color: #767B82;
     padding: 0 26px;
 }
-/* -----------------------------------------Gallery Section----------------------------- */
+/* --------Gallery Section---------- */
 .gallery-section{
     display: flex;
     flex-wrap: wrap;
@@ -310,3 +310,4 @@ ul li{
     transform: translateX(-50%);
     text-transform: uppercase;
 }
+/* ------------About Secrion--------------- */
